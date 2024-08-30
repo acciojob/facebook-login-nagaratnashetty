@@ -1,1 +1,55 @@
 /*  your css code here. If applicable */
+.all{
+	background-color: #f6f6f6;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.all :nth-child(1){
+	width: 450px;
+	margin-top: 70px;
+	display: inline-block;
+}
+.all :nth-child(2){
+	
+	display: flex;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #ccc;
+	flex-direction: column;
+	gap: 10px;
+	
+}
+.email{
+	   border: 1px solid #ccc;
+	    border-radius: 5px;
+	     padding: 10px;
+	
+}
+.password{
+	border: 1px solid #ccc;
+	    border-radius: 5px;
+	     padding: 10px;
+}
+.btn{
+	background-color: #1877f2;
+	border-radius: 5px;
+	padding: 10px 20px;
+	
+}
+.anc{
+	text-decoration: none;
+	color: #1877f2;
+}
+.signup{
+	 background-color: #42b72a !important;
+}
+.right{
+	background-color: rgb(255,255,255) !important;
+}
+form{
+	background-color: white;
+}
